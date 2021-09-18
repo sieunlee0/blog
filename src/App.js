@@ -32,13 +32,21 @@ function App() {
         <button onClick={ ()=>{ 글제목변경("음료수 맛집 추천"), 글제목변경2("학교에서 꿀잠 자는 법"), 글제목변경3("개발 유튜버 추천") } }>click!</button>
       </div>
 
-      <div className="modal">
-        <h2>제목</h2>
-        <p>날짜</p>
-        <p>싱세내용</p>
-      </div>
+      <Modal></Modal>
+      
     </div>
   );
 }
+
+function Modal() {
+  return (
+    <div className="modal">
+    <h2>제목</h2>
+    <p>날짜</p>
+    <p>싱세내용</p>
+  </div>
+  )
+}
+
 
 export default App;
