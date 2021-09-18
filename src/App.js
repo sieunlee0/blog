@@ -11,7 +11,7 @@ function App() {
         <div style={ { color: "blue", fontSize: "30px" } }>
           개발 Blog</div>
       </div>
-      <img src={ logo }></img>
+      <img src={ logo } alt="react logo"></img>
       <h3> { posts } </h3>
     </div>
   );
