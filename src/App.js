@@ -33,19 +33,22 @@ function App() {
       </div>
 
       <Modal></Modal>
-      
+
     </div>
   );
 }
 
 function Modal() {
   return (
+    <>
     <div className="modal">
     <h2>제목</h2>
     <p>날짜</p>
     <p>싱세내용</p>
   </div>
-  )
+  <div></div>
+  </>
+  );
 }
 
 
