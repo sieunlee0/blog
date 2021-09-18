@@ -37,9 +37,6 @@ function App() {
         <p>날짜</p>
         <p>싱세내용</p>
       </div>
-
-      
-      
     </div>
   );
 }
