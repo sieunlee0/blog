@@ -4,9 +4,9 @@ import './App.css';
 
 function App() {
 
-  let [글제목, 글제목변경] = useState('디저트 맛집 추천');
-
-  let posts = "새로운 블로그 글"
+  let [글제목, 글제목변경] = useState("디저트 맛집 추천");
+  let [글제목2, 글제목변경2] = useState("꿀잠 자는 법");
+  let [글제목3, 글제목변경3] = useState("홈트 유투버 추천");
 
   return (
     <div className="App">
@@ -16,6 +16,12 @@ function App() {
       <div className="list">
         <h3> { 글제목 } </h3>
         <p>2021년 9월 18일</p>
+        <hr/>
+        <h3> { 글제목2 } </h3>
+        <p>2021년 9월 23일</p>
+        <hr/>
+        <h3> { 글제목3} </h3>
+        <p>2021년 9월 30일</p>
         <hr/>
       </div>
 
