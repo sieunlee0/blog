@@ -3,16 +3,21 @@ import './App.css';
 
 function App() {
 
-  let posts = "블로그 글"
+  let posts = "새로운 블로그 글"
 
   return (
     <div className="App">
       <div className="black-nav">
-        <div style={ { color: "blue", fontSize: "30px" } }>
-          개발 Blog</div>
+        <div>개발 Blog</div>
       </div>
-      <img src={ logo } alt="react logo"></img>
-      <h3> { posts } </h3>
+      <div className="list">
+        <h3> { posts } </h3>
+        <p>2021년 9월 18일</p>
+        <hr/>
+      </div>
+
+      
+      
     </div>
   );
 }
