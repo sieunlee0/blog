@@ -16,7 +16,7 @@ function App() {
         <div>개발 Blog</div>
       </div>
       <div className="list">
-        <h3> { 글제목 } </h3>
+        <h3> { 글제목 } <span onClick={ ()=>{ 1+1 }}>👍</span> 0 </h3>
         <p>2021년 9월 18일</p>
         <hr/>
 
